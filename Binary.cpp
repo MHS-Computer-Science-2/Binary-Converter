@@ -2,7 +2,7 @@
 using namespace std;
 
 // Input: number is a base 10 number
-// Output: returns a string containing the binary
+// Output: returns a string containing the binary for number
 string getBinary(int number) {
 	//Variable to store the binary
 	string result = "";
