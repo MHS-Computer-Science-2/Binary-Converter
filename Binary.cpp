@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// Input: number is a base 10 number
+// Output: returns a string containing the binary
 string getBinary(int number) {
 	//Variable to store the binary
 	string result = "";
