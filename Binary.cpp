@@ -22,7 +22,7 @@ string getBinary(int number) {
 		//Divide number by 2
 		/* to be completed */
 		
-		//If quotient is 0, break the loop
+		//If number is 0, break the loop
 		/* to be completed */
 	}  
 
