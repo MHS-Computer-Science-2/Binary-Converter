@@ -1,26 +1,28 @@
 #include <iostream>
 using namespace std;
 
-string toBinary(int number) {
+string getBinary(int number) {
 	//Variable to store the binary
 	string result = "";
 
-	do {
+	while(true) {
 		//Get the remainder of dividing the number by 2
-		int remainder = /* todo */;
+		int remainder = /* to be completed */;
 
-		//If remainder 0
-		if (/* todo */) {
+		//If remainder is 0
+		if (/* to be completed */) {
 			result = '0' + result;
 		}
-		//If remainder 1
-		else if (/* todo */) {
+		//Else If remainder is 1
+		else if (/* to be completed */) {
 			result = '1' + result;
 		}
 		//Divide number by 2
-		/* todo */
-
-	} while (/* todo */); //Loop while the number is not 0
+		/* to be completed */
+		
+		//If quotient is 0, break the loop
+		/* to be completed */
+	}  
 
 	//Return the string containing the binary
 	return result;
