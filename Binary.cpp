@@ -33,13 +33,12 @@ string getBinary(int number) {
 
 int main()
 {
-
 	//This code will test your getBinary function.
 	// The ouput should be:
 	// 0
 	// 110
 	// 111
-    	// 10011
+	// 10011
 	// 10111
 	cout << getBinary(0) << endl;
 	cout << getBinary(6) << endl;
@@ -48,7 +47,5 @@ int main()
 	cout << getBinary(23) << endl;
 	//Once your function works, delete this testing code.
 
-
-
-    system("pause");
+	system("pause");
 }
